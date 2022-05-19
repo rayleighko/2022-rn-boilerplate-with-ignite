@@ -1,0 +1,3 @@
+import { atom } from "recoil" import { <%= props.pascalCaseName %>Model } from '<%= props.kebabCaseName %>.inteface' /**
+    * Model description here for TypeScript hints. */ export const <%= props.camelCaseName %>State = atom<<%=
+        props.pascalCaseName %>Model>({ key: "<%= props.camelCaseName %>State" })
